@@ -1,0 +1,40 @@
+@media screen and (min-width: 990px) and (max-width: 1200px){
+	.beer-picture{
+		padding:45px;
+	}
+}
+@media screen and (max-width: 990px){
+	body.story, body.home, body.contact{
+	background-image: none;
+	background-color: $mobile-bg-color;
+}
+	body{
+		background-image: none;
+		background-color: $mobile-bg-color;
+	}
+	.beer-menu ul li{
+		width: 50%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 768px){
+	@import "media_queries/768px";
+}
+@media screen and (max-width: 480px){
+	@import "media_queries/480px";
+}
+
+
+@media screen and (max-width: 1200px){
+	.beer-info .abv{
+		font-size: 18px;
+	}
+	.beer-info h1{
+		font-size:28px;
+	}
+	.beer-info h3{
+		font-size: 20px;
+	}
+
+}

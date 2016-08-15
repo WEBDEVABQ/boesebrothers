@@ -1,0 +1,204 @@
+
+$brand-blue:#00B8E6;
+
+
+
+.site-header {
+  @extend .container-fluid;
+  // background-image: url(../images/header_bg.png);
+  color:#fff;
+  height: 150px;
+  // background-color: rgba(0,0,0,0.4);
+  margin-bottom:50px;
+}
+
+.wrap{
+	@extend .container;
+	position: relative;
+	height: 150px;
+}
+.social-media-links{
+	list-style:none;
+	margin-top:30px;
+	margin-right:30px;
+	position: absolute;
+	top:0;
+	right:0;
+	z-index: 23;
+	color:$dark-brown;
+	& li {
+		float: right;
+		font-size:24px;
+		margin-left: 25px;
+		& a{
+			color:inherit;
+			&:hover{
+				text-decoration:none;
+				color:$brand-blue;
+			}
+		}
+	}
+}
+.nav-links{
+	list-style:none;
+	position: relative;
+	top:75px;
+	height: 40px;
+	background:$dark-brown;
+	border-bottom:3px solid $brand-blue;
+	font-family:'Oswald';
+	font-weight:300;
+	text-transform:uppercase;
+	z-index: 20;
+	& li{
+		min-width:100px;
+		float:right;
+		margin-left: 5px;
+		width: 20%;
+		height:40px;
+		font-size: 18px;
+		text-align: center;
+		background:$dark-brown;
+		position: relative;
+		border-bottom:3px solid $brand-blue;
+		 & a{
+		 	width: 100%;
+		 	height: 100%;
+		 	line-height: 40px;
+		 	color:inherit;
+		 }
+	}
+}
+
+.logo{
+	width:400px;
+	background-image: url(../images/logo_fade.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	height: 175px;
+	position: absolute;
+	z-index: 21;
+	& a{
+		position: absolute;
+		top:0;left:0;right:0;bottom:0;
+		height: 100%; width:100%;
+	}
+}
+
+
+
+
+
+.feature-content{
+	width: 100%;
+	background:#fff;
+	box-shadow: 2px 2px 5px $shadows;
+	overflow:hidden;
+	font-family:'Oswald';
+	border:1px solid #eee;
+	padding:15px;
+	padding-top:5px;
+	font-size:16px;
+	margin-bottom:20px;
+	& h1, h2{
+		color:#fff;
+		width: 100%;
+		background-color:$dark-brown;
+		padding:3px 3px;
+		border-bottom:5px solid $brand-blue;
+
+	}
+	& p{
+		font-family: $font-family-sans-serif;
+	}
+	& img{
+		width: 100%;
+		max-width: 100%;
+	}
+  & img.half{
+    width:48%;
+    float: left;
+    margin-right:2%;
+  }
+}
+.event__date{
+  &__month{
+    float:right;
+    text-align: right;
+    width:49.5%;
+    font-family: 'Oswald';
+    font-size:2em;
+    border:3px solid;
+    border-color:$dark-brown;
+    color: $dark-brown;
+    padding:10px;
+    // position: absolute; right: 0;top:0;
+  }
+}
+.hero-banner{
+	@extend .col-md-12;
+	height: 300px;
+	background:#fff;
+	padding:50px;
+	margin-top:-200px;
+	// border:5px solid #453633;
+	position: relative;
+	border-top:2px solid;
+	border-bottom:2px solid;
+}
+.hero-info{
+  font-family:$font-family-sans-serif;
+	color:#fff;
+  text-align: center;
+  margin-bottom:2em;
+
+	& h1, h2, h3{
+		font-family:'Oswald';
+    text-transform: uppercase;
+	}
+	// & .motto-text{
+  //   font-family:'Oswald';
+	// 	font-size: 2em;
+	// 	padding:4px 14px;
+  //   border: 5px solid #000;
+  //   border-color: darken($brand-blue, 15%);
+	// }
+	& .btn{
+		position: absolute;
+		bottom:15px; right:15px;
+	}
+}
+.taproom, .motto-wrap{
+  height: 250px;
+  background-color: #eee;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  position: relative;
+}
+.taproom{
+  background-image:url(../images/taproom.jpg);
+}
+.motto-wrap{
+  background-image:url(../images/boese_keg_bg.jpg);
+}
+.hero-description{
+  background-color: $dark-brown;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  height: 110px;
+  width: 80%;
+  left: 0; right:0; top:50%; bottom:0;
+  margin:auto;
+  span {
+    display:block;
+  }
+}
+.hero-info-address{
+  font-size: 1.5em;
+  font-family: 'Helvetica', sans-serif;
+}
+.slim{
+	height: 20%;
+	top:80%;
+}

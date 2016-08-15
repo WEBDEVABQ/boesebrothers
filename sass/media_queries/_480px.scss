@@ -1,0 +1,76 @@
+/*
+	#MAX-WIDTH 480px STYLES
+
+*/
+
+body{
+	// background-image: none;
+	// background-color: red;
+	font-size:14px;
+}
+h1{
+	font-size:24px;
+}
+h2{
+	font-size:22px;
+}
+h3{
+	font-size:20px;
+}
+.site-header{
+	margin-bottom:5px;
+	height: 120px;
+	& .social-media-links{
+		display:none;
+	}
+}
+.logo{
+	width: 100px;
+}
+
+.hero-info{
+	top:20%;
+}
+
+/*** NAV Styles ***/
+.nav-links{
+	border:1px solid #fff;
+	padding:0;
+	z-index: 45;
+}
+.nav-links li{
+	margin-left:0;
+	min-width:0;
+	width:33%;
+	font-size: 16px;
+}
+
+.feature-content{
+	font-size:14px;
+}
+
+
+/*** BEER PAGE STYLES ***/ 
+
+.beer-menu ul li {
+	font-size:14px;
+}
+.beer-info-wrap .beer-picture{
+	padding-top:10px;
+	padding-bottom:20px;
+	text-align:center;
+	width:100%;
+}
+.beer-info-wrap .beer-info{
+	width:100%;
+	margin-bottom:5px;
+
+}
+.beer-info, .beer-picture{
+	min-height:1px;
+}
+.beer-info-wrap .beer-picture img{
+	max-width:50%;
+}
+
+

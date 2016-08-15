@@ -1,0 +1,128 @@
+// .content-container{
+// 	height: 100%;
+// }
+.beer-info-wrap{
+  @extend .row;
+
+}
+.beer-menu{
+	margin-top:35px;
+	@extend .col-md-3;
+	@extend .col-md-pull-9;
+	
+	& ul {
+		position: relative;
+		top:50%;
+		padding-left:0;
+		list-style: none;
+		& li {
+			font-size:18px;
+			background:#fff;
+			border:4px solid $brand-blue;
+			text-transform: uppercase;
+			width: 100%;
+			margin-bottom:5px;
+			text-align: center;
+			padding: 10px 0;
+			transition: background-color 0.2s;
+			&:hover{
+				color:#fff;
+				background-color: $brand-blue;
+				cursor:pointer;
+			}
+			& a {
+				color:inherit;
+			}
+		}
+	}
+}
+.beer-picture{
+	@extend .col-md-5;
+	@extend .col-md-push-3;
+	@extend .col-sm-6;
+	overflow:hidden;
+	padding:85px;
+	padding-top:50px;
+	& img{
+		width:100%;
+		max-width: 100%;
+	}
+
+}
+.beer-info{
+    @extend .col-md-4;
+    @extend .col-md-push-3;
+    @extend .col-sm-6;
+    position: relative;
+    border-left:1px solid #eee;
+    margin-top:70px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    background:#fff;
+    z-index: 125;
+    & h1{
+    	//Beer Header Here
+    	font-family: 'Oswald';
+    }
+    & .abv{
+		position: absolute;
+		top:0px;right:0px;
+		display: block;
+		text-align: center;
+		background:black;
+		color:#fff;
+		padding:10px;
+		font-size:24px;
+
+    }
+	& .beer-color{
+		display: block;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	& .tabs-wrap{
+		position: relative;
+		& .tabs{
+			padding-left:0;
+			height: 31px;
+			width: 100%;
+			list-style:none;
+			margin-bottom:15px;
+			
+			& li{
+				cursor: pointer;
+				font-size:18px;
+				height: 30px;
+				line-height: 30px;
+				width: 50%;
+				text-align: center;
+				float: left;
+				background:#eee;
+				border-bottom:1px solid #44403c;				
+			}
+		}
+	}
+}
+.beer-info .tabs-wrap .tabs li.active{
+	background-color: #FFF;
+	border-bottom:2px solid #fff;
+	border-left: 1px solid #44403c;
+	border-right:1px solid #44403c;
+	border-top:1px solid #44403c;
+}
+.history, .description{display:none;}
+
+.history.active, .description.active{display:block;}
+
+.abv:after{
+	font-size:12px;
+	color:$brand-blue;
+	content:"abv";
+	position: absolute;
+	bottom:10px;
+	left: calc(50% - 7.5px);
+	height: 5px;
+	width:5px;
+}
+

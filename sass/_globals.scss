@@ -1,0 +1,173 @@
+/*
+	#GLOBAL STYLES
+		body backgrounds, footer styles, color variables, icon fonts
+
+*/
+
+$brand-blue:#00B8E6;
+/*$dark-brown:#351D00;*/
+$dark-brown:#000;
+$light-brown: #4d4d4d;
+/*$light-brown: #716354;*/
+$mobile-bg-color:#f3f1eb;
+$shadows: darken($mobile-bg-color, 20%);
+$copy:Helvetica, Arial;
+
+
+html, body {
+	height: 100%;
+}
+
+body.story{
+	background: url(../images/thebros.jpg) no-repeat top center fixed;
+}
+body.contact{
+	background-image: url(../images/brewery_bg.jpg);
+}
+body {
+	background-image:url(../images/bg_texture.png);
+	background-repeat: repeat-both;
+	position: relative;
+}
+body.story, body.contact{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bg-overlay{
+	background-image: url(../images/brewery_bg.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;bottom:0;left:0;right:0;
+	z-index: -1;
+	opacity:0.8;
+}
+.responsive-img{
+	max-width:100%;
+}
+.align-center{
+	text-align: center;
+}
+.align-right{
+	text-align: right;
+}
+
+//#ICON FONTS
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?muddhu');
+    src:    url('../fonts/icomoon.eot?muddhu#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?muddhu') format('truetype'),
+        url('../fonts/icomoon.woff?muddhu') format('woff'),
+        url('../fonts/icomoon.svg?muddhu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e057";
+}
+.icon-keyboard_arrow_down:before {
+    content: "\e10f";
+}
+.icon-keyboard_arrow_left:before {
+    content: "\e110";
+}
+.icon-keyboard_arrow_right:before {
+    content: "\e111";
+}
+.icon-keyboard_arrow_up:before {
+    content: "\e112";
+}
+.icon-place:before {
+    content: "\e1f7";
+}
+.icon-facebook2:before {
+    content: "\e800";
+}
+.icon-instagram:before {
+    content: "\e801";
+}
+.icon-twitter2:before {
+    content: "\e802";
+}
+.content-container{
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -175px;
+}
+
+
+/*
+	#FOOTER STYLES
+*/
+
+.site-footer{
+	// @extend .container-fluid;
+	width:100%;
+	background-color: $dark-brown;
+	border-top:3px solid $brand-blue;
+	font-family:'Oswald';
+	font-weight:300;
+	height: 175px;
+	color:$light-brown;
+}
+.footer-push{
+	height: 175px;
+}
+.footer-wrap{
+	@extend .container;
+	text-align: center;
+	& h4{
+		margin-bottom: 0;
+	}
+	& span{
+		float: left;
+		display: block;
+	}
+
+}
+.top-footer{
+	height: 40px;
+	text-align: center;
+	border-bottom:1px solid $light-brown;
+	margin-bottom:15px;
+}
+.site-footer .social-media-links{
+	position: relative;
+	margin: 0 auto;
+	width:80px;
+	height: 30px;
+	padding-left:0;
+	& li {
+		font-size:18px;
+		margin-right: 7.5px;
+		margin-left:0;
+		color:#fff;
+	}
+}

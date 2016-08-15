@@ -1,0 +1,53 @@
+body{
+	// background-image: none;
+	// background-color: blue;
+
+}
+
+
+/***** NAV STYLES *****/ 
+
+
+.logo{
+	max-width: 150px;
+}
+
+
+/* BEER PAGE STYLES */ 
+.beer-menu{
+	height: auto;
+}
+.beer-menu ul{
+	position: static;
+	
+}
+.beer-menu ul li{
+	width:48%;
+	padding:3px 0;
+	float: left;
+}
+.beer-picture{
+	padding: 0px;
+	width: 40%;
+	& img{
+
+	}
+}
+.beer-info{
+	margin-top:0;
+	padding-top:20px;
+	width:60%;
+}
+.beer-info, .beer-picture{
+	float: left;
+	min-height:450px;
+}
+.beer-info-wrap{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+
+.hero-info{
+	top:45%;
+}
