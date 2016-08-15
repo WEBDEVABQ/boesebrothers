@@ -9764,3 +9764,16 @@ body.story, body.contact {
     font-size: 20px;
   }
 }
+
+
+
+
+/* ==== EDITS AUGUST 2016, JAMENA MCINTEER ==== */
+body {
+	background-image:url(../images/brick-wall-dark.png);
+	background-repeat:repeat;
+	background-color:#555;
+}
+.feature-content {
+	box-shadow: 2px 2px 5px #222;
+}
