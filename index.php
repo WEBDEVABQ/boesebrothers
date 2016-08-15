@@ -77,16 +77,13 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="feature col-sm-7">
+			<div class="feature col-sm-5">
 				<div class="feature-content">
 					<h2>UPCOMING EVENT</h2>
-					<h3 style="clear:both;">One-Year Anniversary Party!</h3>
-					<img class="half" src="images/AnniversaryParty.jpg" alt="Anniversary party on August 13th">
-					<p class="event__date"><h5 class="event__date__month">August 13</h5></p>
-					<p class="event__description">Come out for our Anniversary party on August 13th!  We will be releasing our <b>Sour Strangehop</b> in bombers, and for Saturday only, pouring our <b>Anniversary Double IPA</b>.  DJ's will be spinning all day, and band playing in the evening.  <b>Gobble This</b> will be building gourmet burgers 4PM to Midnight.  Sign up in the taproom for the Beer Game Pentathlon!  For more information check out our<a href="https://facebook.com/events/1725441317711215/" target="_blank"> facebook event</a>.</p>
+					<a href="https://facebook.com/events/1725441317711215/" target="_blank"><img src="images/AnniversaryParty.jpg" alt="Anniversary party on August 13th"></a>
 				</div>
 			</div>
-			<div class="feature col-sm-5">
+			<div class="feature col-sm-7">
 				<div class="feature-content">
 				<h2>WEEKLY EVENTS</h2>
 					<!--<img src="images/menu.jpg" alt="Boese Brothers &amp; Gold Street Caffe menu">
@@ -95,7 +92,7 @@
 					<a href="menu.php" class="btn btn-primary">See the Menu</a>-->
 					<h3>Happy Hour</h3>
 					<h4>Monday-Friday 3-6PM</h4>
-					<h4>Tuesdays</h4>
+					<h4 style="margin-top:20px;">Tuesdays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
 <div class="col-sm-10">$2 Tacos</div>

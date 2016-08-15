@@ -9776,4 +9776,55 @@ body {
 }
 .feature-content {
 	box-shadow: 2px 2px 5px #222;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.feature-content h5 {
+	font-size:16px;
+}
+.feature-content h1, .feature-content h2, .feature-content h3, .feature-content h4 {
+	font-family:'Oswald';
+}
+
+@media (min-width: 992px){
+.col-md-pull-9, .beer-menu {
+	background: #fff;
+    top: 35px;
+	box-shadow: 2px 2px 5px #222;
+	}
+
+.beer-info {
+	box-shadow: 2px 2px 5px #222;
+}
+.beer-menu h3 {
+	font-family:"Oswald";
+	border-bottom:1px solid #44403c;
+	padding-bottom:15px;
+}
+
+.beer-menu ul li {
+	font-size: 18px;
+    background: #fff;
+    border: 0px solid #00B8E6;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px 0;
+    transition: background-color 0.2s;
+}
+
+.beer-menu ul li:hover {
+	color: inherit;
+    background-color: #fff;
+    cursor: default;
+	text-decoration:none;
+}
+.beer-menu ul li a:hover {
+	color: #00B8E6;
+    background-color: #fff;
+    cursor: pointer;
+	text-decoration:none;
+}
+
+
 }
