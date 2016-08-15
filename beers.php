@@ -54,31 +54,30 @@
 		<div class="beer-info-wrap">
 
 			<div class="beer-picture">
-				<img src="images/beers/scottishAle.png" alt="beer">
+				<img src="images/beers/whiteAle.png" alt="Boese Brothers La Onza Belgian White Ale">
 			</div>
 
 			<div class="beer-info">
-				<h1>Old Shonie</h1>
-				<h3>Scottish Export Ale</h3>
-				<span class="abv">4.5%</span>
+				<h1>La Onza</h1>
+				<h3>Belgian White Ale</h3>
+				<span class="abv">5.4%</span>
 
 				<div class="tabs-wrap">
 					<ul class="tabs">
 						<li class="active" data-filter="description">Description</li>
 						<li data-filter="history">History</li>
 					</ul>
-					<p class="description active"> Old Shonie is the brewery’s most approachable and session-able offering. This beer utilizes high-quality roasted and kilned European malts, with just enough hops to keep the flavors in balance. It boasts a prominent but not overpowering malt flavor, with just a hint of grainy sweetness. The addition of a small quantity of caramelized oats gives the beer shaving cream-like foam and satisfying finish.
+					<p class="description active">
+						A modern interpretation of a Belgian classic, this wheat and oat based beer is crisp, tart, and refreshing. Traditionally, white beers have been finished with dried coriander seeds and orange peels. In contrast, Boese Brothers utilizes fresh ginger, lemongrass, and El Dorado hops to deliver a subtle, dry, and refreshing beer with fruit and spice notes. The traditional Belgian yeast strain, in combination with relatively warm fermentation temperatures, delivers a bouquet of supporting fruity aromas and flavors, with a slightly tart finish.    <br>
 						<span class="beer-color copper">
-						<strong>Color: </strong>Copper/Red
+						<strong>Color: </strong>Hazy Off-White
 						</span>
 					</p>
 
 					<p class="history">
-						Scotland’s climate is perfect for growing barley but not suitable for hop cultivation. In contrast, England is one of the world’s classic hop-growing regions. In the 1700’s, English hops bound for Scotland were subjected to heavy exportation taxation. In an effort to bypass hop taxation, Scottish brewers developed simple yet delicious malt-centric session beers known as Scottish Ales.
+						The Belgian Witbier (white beer) style is over 500 years old, but unfortunately disappeared in the 1950’s. A decade later, Pierre Celis rejuvenated this classic style, brewing in his hometown of Hoegaarden, Belgium. Since its revival, White Ale has increased in popularity throughout the world, and hopefully it will be around for another five centuries.
 					</p>
-
 				</div>
-
 			</div>
 
 			<?php include 'beer-menu.html'; ?>
