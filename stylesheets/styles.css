@@ -9769,7 +9769,7 @@ body.story, body.contact {
 
 
 /* ==== EDITS AUGUST 2016, JAMENA MCINTEER ==== */
-body {
+body, body.story, body.home, body.contact {
 	background-image:url(../images/brick-wall-dark.png);
 	background-repeat:repeat;
 	background-color:#555;
@@ -9853,6 +9853,36 @@ body {
 }
 .home-container {
 	margin-top:200px;
+}
+
+.beer-menu {
+	padding-left:0;
+	padding-right:0;
+}
+.beer-menu h3 {
+	font-family:"Oswald";
+	border-bottom:1px solid #fff;
+	padding-bottom:0px;
+	color:white;
+	line-height:50px;
+}
+.beer-list-container {
+	background:#fff;
+	display:block;
+	height:205px;
+	padding-top:10px;
+	box-shadow:2px 2px 5px #222;
+}
+.beer-menu ul li {
+	width:100%;
+	border:0;
+	margin-top:10px;
+	font-size:18px;
+}
+.beer-menu ul li:hover, .beer-menu ul li a:hover {
+	background:#fff;
+	color:#00B8E6;
+	text-decoration:none;
 }
 
 }
