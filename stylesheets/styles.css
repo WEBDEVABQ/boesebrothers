@@ -9769,7 +9769,7 @@ body.story, body.contact {
 
 
 /* ==== EDITS AUGUST 2016, JAMENA MCINTEER ==== */
-body, body.story, body.home, body.contact {
+body, body.home {
 	background-image:url(../images/brick-wall-dark.png);
 	background-repeat:repeat;
 	background-color:#555;
