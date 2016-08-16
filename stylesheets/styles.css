@@ -9784,7 +9784,18 @@ body {
 .feature-content h1, .feature-content h2, .feature-content h3, .feature-content h4 {
 	font-family:'Oswald';
 }
+.banner-container {
+	background:url('../images/banner.jpg') no-repeat;
+	width:100%;
+	height:600px;
+	background-size:cover;
+	position:absolute;
+	top:0;
+	left:0;
+	box-shadow:2px 2px 5px #222;
+}
 
+/* desktop changes */
 @media (min-width: 992px){
 .col-md-pull-9, .beer-menu {
 	background: #fff;
@@ -9826,5 +9837,22 @@ body {
 	text-decoration:none;
 }
 
+.home-container {
+	margin-top:500px;
+}
+
+
+}
+
+
+/* mobile changes */
+@media (max-width: 992px){
+	
+.banner-container {
+	height:300px;
+}
+.home-container {
+	margin-top:200px;
+}
 
 }

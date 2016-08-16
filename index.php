@@ -32,6 +32,8 @@
 </head>
 <body class="home">
 <div class="content-container">
+	<div class="banner-container">
+	</div>
 	<header class="site-header">
 		<div class="wrap">
 
@@ -57,7 +59,7 @@
 		</div>
 	</div> -->
 
-	<section class="hero-info container-fluid">
+	<!--<section class="hero-info container-fluid">
 		<div class="row">
 			<div class="col-md-6 taproom">
 				<div class="hero-description">
@@ -73,9 +75,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 
-	<div class="container">
+	<div class="container home-container">
 		<div class="row">
 			<div class="feature col-sm-5">
 				<div class="feature-content">
