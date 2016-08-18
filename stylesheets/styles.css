@@ -9784,15 +9784,20 @@ body, body.home {
 .feature-content h1, .feature-content h2, .feature-content h3, .feature-content h4 {
 	font-family:'Oswald';
 }
-.banner-container {
+/*.banner-container {
 	background:url('../images/banner.jpg') no-repeat;
 	width:100%;
 	height:600px;
 	background-size:cover;
-	position:absolute;
+	position:fixed;
 	top:0;
 	left:0;
 	box-shadow:2px 2px 5px #222;
+}*/
+body.home {
+	background:url('../images/banner.jpg') no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
 }
 
 /* desktop changes */
@@ -9839,6 +9844,7 @@ body, body.home {
 
 .home-container {
 	margin-top:500px;
+	margin-top:0px;
 }
 
 
@@ -9848,11 +9854,9 @@ body, body.home {
 /* mobile changes */
 @media (max-width: 992px){
 	
-.banner-container {
-	height:300px;
-}
 .home-container {
 	margin-top:200px;
+	margin-top:0px;
 }
 
 .beer-menu {
@@ -9885,4 +9889,12 @@ body, body.home {
 	text-decoration:none;
 }
 
+}
+
+body.story {
+    background: url(../images/thebros_hi-res-edit.jpg) no-repeat fixed;
+	background-size:cover;
+}
+.logo {
+	background-image:url(../images/boese-brothers_logo.jpg);
 }

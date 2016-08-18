@@ -32,8 +32,8 @@
 </head>
 <body class="home">
 <div class="content-container">
-	<div class="banner-container">
-	</div>
+	<!--<div class="banner-container">
+	</div>-->
 	<header class="site-header">
 		<div class="wrap">
 
