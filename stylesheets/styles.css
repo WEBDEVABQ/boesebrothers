@@ -9777,6 +9777,7 @@ body, body.home {
 .feature-content {
 	box-shadow: 2px 2px 5px #222;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border:1px solid black;
 }
 .feature-content h5 {
 	font-size:16px;
@@ -9799,6 +9800,10 @@ body.home {
 	background-size:cover;
 	background-attachment:fixed;
 }
+.map {
+	border:1px solid black;
+	box-shadow: 2px 2px 5px #222;
+}
 
 /* desktop changes */
 @media (min-width: 992px){
@@ -9806,15 +9811,19 @@ body.home {
 	background: #fff;
     top: 35px;
 	box-shadow: 2px 2px 5px #222;
+	width:17%;
+	border:1px solid black;
 	}
 
 .beer-info {
 	box-shadow: 2px 2px 5px #222;
+	border:1px solid black;
 }
 .beer-menu h3 {
 	font-family:"Oswald";
 	border-bottom:1px solid #44403c;
 	padding-bottom:15px;
+	text-align:right;
 }
 
 .beer-menu ul li {
@@ -9824,7 +9833,7 @@ body.home {
     text-transform: uppercase;
     width: 100%;
     margin-bottom: 5px;
-    text-align: center;
+    text-align: right;
     padding: 10px 0;
     transition: background-color 0.2s;
 }
