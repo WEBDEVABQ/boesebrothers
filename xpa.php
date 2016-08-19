@@ -35,7 +35,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
 </head>
-<body>
+<body class="xpa">
 <div class="content-container">
 	<header class="site-header">
 		<div class="wrap">

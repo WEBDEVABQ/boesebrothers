@@ -9819,6 +9819,9 @@ body.home {
 	box-shadow: 2px 2px 5px #222;
 	border:1px solid black;
 }
+.beer-picture {
+	left:21%;
+}
 .beer-menu h3 {
 	font-family:"Oswald";
 	border-bottom:1px solid #44403c;
@@ -9902,6 +9905,10 @@ body.home {
 
 body.story {
     background: url(../images/thebros_hi-res-edit.jpg) no-repeat fixed;
+	background-size:cover;
+}
+body.beer, body.onza, body.xpa, body.porter, body.duke-city-lager {
+    background: url(../images/brews-background.jpg) no-repeat fixed;
 	background-size:cover;
 }
 .logo {

@@ -34,7 +34,7 @@
 	}
 	</style>
 </head>
-<body>
+<body class="beer">
 <div class="content-container">
 	<header class="site-header">
 		<div class="wrap">
