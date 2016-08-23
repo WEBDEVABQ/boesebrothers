@@ -9804,6 +9804,12 @@ body.home {
 	border:1px solid black;
 	box-shadow: 2px 2px 5px #222;
 }
+.logo {
+	background-image:url(../images/logo-new.png);
+}
+.logo2 {
+	background-image:url(../images/duke-logo.png);
+}
 
 /* desktop changes */
 @media (min-width: 992px){
@@ -9858,6 +9864,22 @@ body.home {
 	margin-top:500px;
 	margin-top:0px;
 }
+.logo {
+	width:175px;
+}
+.logo2 {
+	top:0;
+	right:0;
+}
+.nav-links li {
+	float:left;
+}
+.nav-links li.first {
+	margin-left:225px;
+}
+.site-header .social-media-links {
+	right:39.5%;
+}	
 
 
 }
@@ -9865,6 +9887,21 @@ body.home {
 
 /* mobile changes */
 @media (max-width: 992px){
+
+.nav-links li.first {
+	margin-left:21%;
+}
+.nav-links li {
+	padding:0;
+	float:left;
+}
+.site-header .social-media-links {
+	right:0;
+}	
+
+.logo2 {
+	display:none;
+}
 	
 .home-container {
 	margin-top:200px;
@@ -9911,6 +9948,5 @@ body.beer, body.onza, body.xpa, body.porter, body.duke-city-lager {
     background: url(../images/brews-background.jpg) no-repeat fixed;
 	background-size:cover;
 }
-.logo {
-	background-image:url(../images/boese-brothers_logo.jpg);
-}
+	
+	

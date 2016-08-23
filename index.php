@@ -43,10 +43,6 @@
 			<li><a href="https://twitter.com/boesebrothers"><span class="icon-twitter2"></span></a></li>
 		</ul>
 
-			<div class="logo" title="Boese Brothers Logo">
-				<a href="index" alt="Boese Brothers Brewery"></a>
-			</div>
-
 			<?php include 'nav.html';?>
 
 		</div>
