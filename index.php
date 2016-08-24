@@ -75,13 +75,13 @@
 
 	<div class="container home-container">
 		<div class="row">
-			<div class="feature col-sm-5">
+			<div class="feature col-sm-8">
 				<div class="feature-content">
 					<h2>UPCOMING EVENT</h2>
 					<a href="https://facebook.com/events/1725441317711215/" target="_blank"><img src="images/AnniversaryParty.jpg" alt="Anniversary party on August 13th"></a>
 				</div>
 			</div>
-			<div class="feature col-sm-7">
+			<div class="feature col-sm-4">
 				<div class="feature-content">
 				<h2>WEEKLY EVENTS</h2>
 					<!--<img src="images/menu.jpg" alt="Boese Brothers &amp; Gold Street Caffe menu">
