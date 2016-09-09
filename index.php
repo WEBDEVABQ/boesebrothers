@@ -78,7 +78,7 @@
 			<div class="feature col-sm-8">
 				<div class="feature-content">
 					<h2>UPCOMING EVENT</h2>
-					<a href="https://facebook.com/events/1725441317711215/" target="_blank"><img src="images/AnniversaryParty.jpg" alt="Anniversary party on August 13th"></a>
+					<a href="https://www.facebook.com/events/1139070876180342/" target="_blank"><img src="images/OktoberfestParty-2016Liese.jpg" alt="Anniversary party on August 13th"></a>
 				</div>
 			</div>
 			<div class="feature col-sm-4">
