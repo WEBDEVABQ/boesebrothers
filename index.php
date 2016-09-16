@@ -93,7 +93,7 @@
 					<h4 style="margin-top:20px;">Tuesdays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
-<div class="col-sm-10">$2 Tacos</div>
+<div class="col-sm-10">Gobble This Food Truck</div>
 </div>
 <div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
@@ -102,7 +102,7 @@
 <h4>Wednesdays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
-<div class="col-sm-10">Wood-Fired Pizza</div>
+<div class="col-sm-10">Keru's Mexican Food Truck</div>
 </div>
 <div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
@@ -121,12 +121,6 @@
 <div class="col-sm-1"> </div>
 <div class="col-sm-10">Small Batch Relase</div>
 </div></h5>
-<h4>Fridays</h4>
-<h5><div class="row" style="padding-left: 20px;">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">Gold St. Caffe Delivers</div>
-</div>
-</h5>
 <h4>Sundays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>

@@ -61,14 +61,16 @@
 				<div class="feature-content">
 					<h2>Hours</h1>
 					<p class="address">
-					<strong>Mon - Thur</strong>
+					<strong>Monday</strong>
+					3 p.m. - 10 p.m.<br>
+					<strong>Tues - Thur</strong>
 					3 p.m. - 12 a.m.<br>
 					<strong>Friday</strong>
 					3 p.m. - 2 a.m. <br>
 					<strong>Saturday</strong>
 					1 p.m - 2 a.m.<br>
 					<strong>Sunday</strong>
-					1 p.m. - 10 p.m.
+					3 p.m. - 10 p.m.
 					</p>
 				</div>
 			</div>

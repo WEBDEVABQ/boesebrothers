@@ -9939,6 +9939,15 @@ body.home {
 }
 
 }
+@media (max-width: 512px){
+
+.nav-links li.first {
+	margin-left:0;
+}
+.logo {
+	width:88px;
+}
+}
 
 body.story {
     background: url(../images/thebros_hi-res-edit.jpg) no-repeat fixed;
