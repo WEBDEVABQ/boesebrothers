@@ -78,7 +78,7 @@
 			<div class="feature col-sm-8">
 				<div class="feature-content">
 					<h2>UPCOMING EVENT</h2>
-					<a href="https://www.facebook.com/events/1139070876180342/" target="_blank"><img src="images/OktoberfestParty-2016Liese.jpg" alt="Anniversary party on August 13th"></a>
+					<a href="https://www.facebook.com/events/1725799261065622/" target="_blank"><img src="images/ZeusJuice-2017.jpg" alt="Release Party Sat 4/1 Zeus Juice White IPA"></a>
 				</div>
 			</div>
 			<div class="feature col-sm-4">
@@ -93,34 +93,20 @@
 					<h4 style="margin-top:20px;">Tuesdays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
-<div class="col-sm-10">Gobble This Food Truck</div>
+<div class="col-sm-10">$1-off beers all day</div>
 </div>
 <div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
-<div class="col-sm-10">$3 Duke City Lager & La Onza White Ale</div>
-</div></h5>
+<div class="col-sm-10">Tacos</div>
+</div>
+</h5>
 <h4>Wednesdays</h4>
-<h5><div class="row" style="padding-left: 20px;">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">Keru's Mexican Food Truck</div>
-</div>
-<div class="row" style="padding-left: 20px;">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">$10 Pitchers</div>
-</div>
+<h5>
 <div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
 <div class="col-sm-10">Wall Hooky Tournament @8PM</div>
 </div></h5>
-<h4>Thursdays</h4>
-<h5><div class="row" style="padding-left: 20px;">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">Tibet Kitchen</div>
-</div>
-<div class="row" style="padding-left: 20px;">
-<div class="col-sm-1"> </div>
-<div class="col-sm-10">Small Batch Relase</div>
-</div></h5>
+</h5>
 <h4>Sundays</h4>
 <h5><div class="row" style="padding-left: 20px;">
 <div class="col-sm-1"> </div>
