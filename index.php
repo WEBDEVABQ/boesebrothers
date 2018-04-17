@@ -27,7 +27,7 @@
 
 	<title>Boese Brothers Brewery</title>
 	<meta name="description" content="The Boese Brothers Brewery in downtown Albuquerque offers easy to drink beers that draw from classic styles.">
-	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/styles.css?v=1.0.1s">
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="home">
@@ -73,7 +73,7 @@
 		</div>
 	</section>-->
 
-	<div class="container home-container">
+	<!--<div class="container home-container">
 		<div class="row">
 			<div class="feature col-sm-8">
 				<div class="feature-content">
@@ -84,10 +84,6 @@
 			<div class="feature col-sm-4">
 				<div class="feature-content">
 				<h2>WEEKLY EVENTS</h2>
-					<!--<img src="images/menu.jpg" alt="Boese Brothers &amp; Gold Street Caffe menu">
-					<h3>Boese Bros &amp; Gold Street Caffe</h3>
-					<p>New menu packed with culinary delights!</p>
-					<a href="menu.php" class="btn btn-primary">See the Menu</a>-->
 					<h3>Happy Hour</h3>
 					<h4>Monday-Friday 3-6PM</h4>
 					<h4 style="margin-top:20px;">Tuesdays</h4>
@@ -119,7 +115,7 @@
 		</div>
 	</div>
 	<div class="footer-push"></div>
-</div><!--END OF CONTENT CONTAINER -->
+</div>--><!--END OF CONTENT CONTAINER -->
 
 <?php include 'footer.html';?>
 

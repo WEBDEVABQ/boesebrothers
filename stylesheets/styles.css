@@ -8938,6 +8938,10 @@ body.story, body.contact {
   height: 175px;
   color: #4d4d4d;
 }
+.home .site-footer {
+  position: absolute;
+  bottom: 0;
+}
 
 /* line 140, ../sass/_globals.scss */
 .footer-push {

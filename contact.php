@@ -64,13 +64,13 @@
 					<strong>Monday</strong>
 					3 p.m. - 10 p.m.<br>
 					<strong>Tues - Thur</strong>
-					3 p.m. - 12 a.m.<br>
+					3 p.m. - 11:30 p.m.<br>
 					<strong>Friday</strong>
-					3 p.m. - 2 a.m. <br>
+					3 p.m. - 1 a.m. <br>
 					<strong>Saturday</strong>
-					1 p.m - 2 a.m.<br>
+					1 p.m - 1 a.m.<br>
 					<strong>Sunday</strong>
-					3 p.m. - 10 p.m.
+					3 p.m. - 11 p.m.
 					</p>
 				</div>
 			</div>
